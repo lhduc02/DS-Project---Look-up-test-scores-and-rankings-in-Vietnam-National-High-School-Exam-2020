@@ -275,7 +275,5 @@ def diem_tuong_duong(khoi, phan_tram):
     diem_tuong_duong_2019 = lst_sorted[int(len(lst_sorted)*phan_tram)]
     return diem_tuong_duong_2019
 
-# Main
-khoi = 'C01'
-phan_tram = 0.2307
-print(diem_tuong_duong(khoi, phan_tram))
+
+
