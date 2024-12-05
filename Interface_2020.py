@@ -516,7 +516,7 @@ try:
                 st.write("Xếp hạng điểm khối", khoi, "của bạn trên toàn quốc là:", sort_toan_quoc.index(diem_cua_thi_sinh), "trên tổng số", count_toan_quoc, "thí sinh, bạn thuộc top", round(sort_toan_quoc.index(diem_cua_thi_sinh)/count_toan_quoc*100, 2), "%")
 
                 # Điểm tương đương với năm 2019
-                st.write("Điểm số của bạn tương đương với mức điểm", diem_tuong_duong(khoi, sort_toan_quoc.index(diem_cua_thi_sinh)/count_toan_quoc), " năm 2019 (dựa trên top điểm thi trên toàn quốc là ", round(sort_toan_quoc.index(diem_cua_thi_sinh)/count_toan_quoc*100, 2), "%")
+                st.write("Điểm số của bạn tương đương với mức điểm", diem_tuong_duong(khoi, sort_toan_quoc.index(diem_cua_thi_sinh)/count_toan_quoc), " năm 2019 (dựa trên top điểm thi trên toàn quốc là ", round(sort_toan_quoc.index(diem_cua_thi_sinh)/count_toan_quoc*100, 2), "%)")
 except:
     st.write("Bạn nhập sai số báo danh hoặc số báo danh không tồn tại trong dữ liệu của Bộ GD&ĐT. Mời bạn nhập lại.")
 
